@@ -50,7 +50,7 @@ environments:
 grails:
     profile: web
     codegen:
-        defaultPackage: g3_1_x_mapping
+        defaultPackage: g31xmapping
     spring:
         transactionManagement:
             proxies: false

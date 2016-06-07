@@ -1,4 +1,4 @@
-package g3_1_x_mapping.controllers.account
+package g31xmapping.controllers.account
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification

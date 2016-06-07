@@ -1,4 +1,4 @@
-package g3_1_x_mapping
+package g31xmapping
 
 class UrlMappings {
 
@@ -6,17 +6,17 @@ class UrlMappings {
 
         group("/main") {
             "/" {
-                namespace = g3_1_x_mapping.controllers.main.IndexController.namespace
+                namespace = g31xmapping.controllers.main.IndexController.namespace
                 controller = 'index'
                 action = 'index'
             }
             "/page2" {
-                namespace = g3_1_x_mapping.controllers.main.IndexController.namespace
+                namespace = g31xmapping.controllers.main.IndexController.namespace
                 controller = 'index'
                 action = 'page2'
             }
             "/page3" {
-                namespace = g3_1_x_mapping.controllers.main.IndexController.namespace
+                namespace = g31xmapping.controllers.main.IndexController.namespace
                 controller = 'index'
                 action = 'page3'
             }
@@ -24,12 +24,12 @@ class UrlMappings {
 
         group("/account") {
             "/" {
-                namespace = g3_1_x_mapping.controllers.account.IndexController.namespace
+                namespace = g31xmapping.controllers.account.IndexController.namespace
                 controller = 'index'
                 action = 'index'
             }
             "/$controller/$action?" {
-                namespace = g3_1_x_mapping.controllers.account.IndexController.namespace
+                namespace = g31xmapping.controllers.account.IndexController.namespace
             }
         }
 
@@ -39,7 +39,7 @@ class UrlMappings {
             }
         }
 
-        "/"(namespace: g3_1_x_mapping.controllers.main.IndexController.namespace, controller: 'index', action: 'index')
+        "/"(namespace: g31xmapping.controllers.main.IndexController.namespace, controller: 'index', action: 'index')
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

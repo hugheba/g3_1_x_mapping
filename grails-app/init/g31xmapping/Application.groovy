@@ -1,4 +1,4 @@
-package g3_1_x_mapping
+package g31xmapping
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration

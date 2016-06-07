@@ -1,3 +1,4 @@
+import ch.qos.logback.classic.encoder.PatternLayoutEncoder
 import grails.util.BuildSettings
 import grails.util.Environment
 
@@ -7,6 +8,8 @@ appender('STDOUT', ConsoleAppender) {
         pattern = "%level %logger - %msg%n"
     }
 }
+
+logger("g31xmapping", INFO, ['STDOUT'], false)
 
 root(ERROR, ['STDOUT'])
 
