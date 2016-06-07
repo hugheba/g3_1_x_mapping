@@ -6,8 +6,7 @@
 </head>
 
 <body>
-<h1>Account/Index/Index</h1>
-<p>${params.namespace}/${params.controller}/${params.action}</p>
+<h1>account/index/index = ${params.namespace}/${params.controller}/${params.action}</h1>
 <p><g:render template="/includes/nav" /></p>
 </body>
 </html>

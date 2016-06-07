@@ -6,8 +6,7 @@
 </head>
 
 <body>
-<h1>Main/Index/Page2</h1>
-<p>${params.namespace}/${params.controller}/${params.action}</p>
+<h1>main/index/page2 = ${params.namespace}/${params.controller}/${params.action}</h1>
 <p><g:render template="/includes/nav" /></p>
 </body>
 </html>
