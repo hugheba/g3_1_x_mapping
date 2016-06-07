@@ -39,5 +39,5 @@ Version 3.1.1 works correctly in all environments.
 
 ### Example Application
 
-- TODO: link to github repository with example that reproduces the issue
+- https://github.com/hugheba/g3_1_x_mapping
 
